@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+ml_engine/venv/
+
+# Environment variables (Never upload passwords!)
+.env
+.DS_Store
