@@ -178,6 +178,7 @@ body {
 .sub-text {
   margin-top: 1rem;
   color: var(--text-muted);
+<<<<<<< HEAD
 }
 
 .upload-container {
@@ -304,4 +305,6 @@ body {
 .nav-item:hover {
   color: var(--text-main);
   background: rgba(255, 255, 255, 0.05);
+=======
+>>>>>>> 2cca8ed (Basic Dashboard)
 }

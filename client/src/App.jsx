@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import SalesAnalytics from './SalesAnalytics';
 import Operations from './Operations';
@@ -45,6 +46,11 @@ function App() {
       </main>
     </div>
   );
+=======
+import Dashboard from "./dashboard.jsx"
+function App() {
+ return (<Dashboard/>);
+>>>>>>> 2cca8ed (Basic Dashboard)
 }
 
 export default App;
