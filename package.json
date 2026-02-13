@@ -1,0 +1,30 @@
+{
+  "name": "hopdrop-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhav-kayal/HopDrop-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anubhav-kayal/HopDrop-/issues"
+  },
+  "homepage": "https://github.com/anubhav-kayal/HopDrop-#readme",
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "pg": "^8.18.0",
+    "react-chartjs-2": "^5.3.1"
+  }
+}
