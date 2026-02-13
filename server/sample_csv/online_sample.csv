@@ -1,0 +1,4 @@
+transaction_id,transaction_date,customer_name,product,total_items,total_cost,payment_method,city,discount_percentage,season,channel
+3001,2024-01-15 14:00:00,Alice Brown,Headphones,1,150.00,PayPal,Seattle,0.0,Winter,ONLINE
+3002,2024-01-15 14:30:00,Bob Wilson,Webcam,2,200.00,Credit Card,Seattle,5.0,Winter,ONLINE
+3004,2024-01-15 15:00:00,Carol Davis,USB Drive,10,50.00,PayPal,Portland,0.0,Winter,ONLINE

@@ -1,0 +1,4 @@
+transaction_id,transaction_date,customer_name,product,total_items,total_cost,payment_method,city,discount_percentage,season,channel
+1001,2024-01-15 10:30:00,John Doe,Laptop,2,2500.00,Credit Card,New York,5.0,Winter,STORE
+1002,2024-01-15 11:00:00,Jane Smith,Mouse,5,250.00,Cash,Los Angeles,0.0,Winter,STORE
+1003,2024-01-15 12:00:00,Bob Johnson,Keyboard,3,150.00,Debit Card,Chicago,10.0,Winter,STORE
