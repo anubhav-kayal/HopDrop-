@@ -1,0 +1,5 @@
+transaction_id,transaction_date,customer_name,product,total_items,total_cost,payment_method,city,discount_percentage,season,channel
+4001,2024-01-15 16:00:00,Test User,Negative Quantity,-5,100.00,Credit Card,New York,0.0,Winter,STORE
+4002,2024-01-15 16:30:00,Test User,Negative Cost,2,-200.00,Cash,Los Angeles,0.0,Winter,STORE
+4003,2024-01-15 17:00:00,Test User,Duplicate ID,1,50.00,Credit Card,Chicago,0.0,Winter,STORE
+4003,2024-01-15 17:30:00,Test User,Duplicate ID Again,1,50.00,Cash,Chicago,0.0,Winter,STORE

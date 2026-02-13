@@ -3,9 +3,19 @@ const multer = require("multer");
 // ✅ Use memory storage (no files saved to disk)
 const storage = multer.memoryStorage();
 
-// ✅ Optional: Only allow CSV
+// ✅ Only allow CSV files (accept multiple MIME types)
 const fileFilter = (req, file, cb) => {
-  if (file.mimetype === "text/csv") {
+  const allowedMimeTypes = [
+    "text/csv",
+    "application/csv",
+    "application/vnd.ms-excel",
+    "text/plain"
+  ];
+  
+  const isCSV = allowedMimeTypes.includes(file.mimetype) || 
+                file.originalname.toLowerCase().endsWith('.csv');
+  
+  if (isCSV) {
     cb(null, true);
   } else {
     cb(new Error("Only CSV files are allowed!"), false);

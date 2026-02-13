@@ -1,0 +1,4 @@
+transaction_id,transaction_date,customer_name,product,total_items,total_cost,payment_method,city,discount_percentage,season,channel
+2001,2024-01-15 09:00:00,ABC Corp,Monitor,10,5000.00,Wire Transfer,Chicago,10.0,Winter,WAREHOUSE
+2002,2024-01-15 09:30:00,XYZ Ltd,Printer,5,1500.00,Credit Card,Chicago,0.0,Winter,WAREHOUSE
+2003,2024-01-15 10:00:00,Tech Inc,Scanner,2,800.00,Wire Transfer,Detroit,5.0,Winter,WAREHOUSE
